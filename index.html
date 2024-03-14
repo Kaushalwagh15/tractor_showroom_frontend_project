@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive car website - Bedimcode</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container"> 
+                <a href="#" class="nav__logo">
+                    <!-- <i class="ri-steering-2-line"></i> -->
+                    <i class="fa-solid fa-tractor"></i>
+                    Khandesh Tractor
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#popular" class="nav__link">Popular</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#product" class="nav__link">Product</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#services" class="nav__link">Service</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contactUs" class="nav__link">Contact Us</a>
+                        </li>
+                    </ul>
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <!-- Toggle button -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line"></i>
+                    
+                </div>
+
+            </nav>
+
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+
+        
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="shape shape__big"></div>
+                <div class="shape shape__small"></div>
+                <div class="home__container container grid ">
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            Choose The Best Tractor
+                        </h1>
+                        <h2 class="home__subtitle">
+                            VST 927
+                        </h2>
+                        <h3 class="home__elec">
+                            <i class="ri-flashlight-fill"></i> Powerfull Tractor
+                        </h3>
+
+                    </div>
+                    <img src="assets/kts_photos/home_m2.png" alt="" class="home__img">
+                    <div class="home__car">
+                        <div class="home__car-data">
+                            <div class="home__car-icon">
+                                <i class="ri-flashlight-line"></i>
+                            </div>
+                            <h2 class="home__car-number">24 </h2>
+                            <h3 class="home__car-name">Horse Power</h3>
+                        </div>
+                        <div class="home__car-data">
+                            <div class="home__car-icon">
+                                <i class="fa-solid fa-tractor"></i>
+                            </div>
+                            <h2 class="home__car-number">4WD</h2>
+                            <h3 class="home__car-name">Wheel Drive</h3>
+                        </div>
+                        <div class="home__car-data">
+                            <div class="home__car-icon">
+                                <i class="ri-steering-2-fill"></i>
+                            </div>
+                            <h2 class="home__car-number">Power </h2>
+                            <h3 class="home__car-name">Steering</h3>
+                        </div>
+                    </div>
+                    <a href="#about" class="home__button">START</a>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                <div class="about__group">
+                    <img src="assets/kts_photos/about_1.jpg" alt="" class="about__img">
+                    
+                    <div class="about__card">
+                        <h3 class="about__card-title">2+</h3>
+                        <p class="about__card-description">
+                            Showroom In Shirpur city
+                        </p>
+                    </div>
+                </div>
+
+                <div class="about__data">
+                    <h2 class="section__title about__title">
+                        Machine With <br> Most Powerfull
+                    </h2>
+
+                    <p class="about__description">
+                    See the future with high-perfomance tractor produced by 
+                    VST Brand. They feature high power and 4WD builds and designs with
+                    new and innovative platform that a long time    
+                    </p>
+
+                    <a href="/ContactUsForm.html" class="button">Know More</a>
+                    <button class="button" id="openbt">Equiry</button>
+                </div>
+                <!-- <div id="popup">
+                    <div class="popup-content">
+                    <span class="close" id="closePopupButton">&times;</span>
+                    <h2>Sign Up</h2>
+                    <form id="signupForm" onsubmit="submitForm(event)">
+                    <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                    <label for="email">Email Id:</label>
+                    <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                    <label for="mobile">Mobile No:</label>
+                    <input type="tel" id="mobile" name="mobile" required>
+                    </div>
+                    <div class="form-group">
+                    <label for="city">City:</label>
+                    <input type="text" id="city" name="city" required>
+                    </div>
+                    <div class="form-group">
+                    <label for="country">Country:</label>
+                    <input type="text" id="country" name="country" required>
+                    </div>
+                    <button type="submit">Submit</button>
+                    </form>
+                    </div>
+                    </div> -->
+                    <script src="/tract.js"></script>
+            </div>
+
+            </section>
+
+            <!--==================== POPULAR ====================-->
+            <section class="popular section" id="popular">
+            <h2 class="section__title">
+                Choose Your Powerfull Tractor <br> of The VST Brand
+            </h2>
+
+            <div class="popular__container container swiper">
+            <div class="swiper-wrapper">
+                <article class="popular__card swiper-slide">
+                    <div class="shape shape_smaller"></div>
+                    <h1 class="popular__title">VST</h1>
+                    <h1 class="popular__subtitle">927</h1>
+
+                    <img src="assets/kts_photos/t297_1.png" alt="" class="popular__img">
+
+                    <div class="popular__data">
+                        <div class="popular__data-group">
+                            <i class="ri-dashboard-3-line"></i>3.7 Sec
+                        </div>
+                        <div class="popular__data-group">
+                            <i class="ri-funds-line"></i> 40 Km/h
+                            
+                        </div>
+                        <div class="popular__data-group">
+                            <i class="ri-charging-pile-line"></i> Disel
+                        
+                        </div>
+                    </div>
+
+                    <h3 class="popular__price">no Declear</h3>
+
+                    <button class="button popular__button">
+                        <i class="ri-shopping-bag-2-line"></i>
+                    </button>
+
+
+                </article>
+
+                <article class="popular__card swiper-slide">
+                    <div class="shape shape_smaller"></div>
+                    <h1 class="popular__title">VST</h1>
+                    <h1 class="popular__subtitle">939 DI</h1>
+
+                    <img src="assets/kts_photos/T939.png" alt="" class="popular__img">
+
+                    <div class="popular__data">
+                        <div class="popular__data-group">
+                            <i class="ri-dashboard-3-line"></i>3.7 Sec
+                        </div>
+                        <div class="popular__data-group">
+                            <i class="ri-funds-line"></i> 40 Km/h
+                            
+                        </div>
+                        <div class="popular__data-group">
+                            <i class="ri-charging-pile-line"></i> Disel
+                        
+                        </div>
+                    </div>
+
+                    <h3 class="popular__price">Not Declear</h3>
+
+                    <button class="button popular__button">
+                        <i class="ri-shopping-bag-2-line"></i>
+                    </button>
+
+
+                </article>
+
+                <article class="popular__card swiper-slide">
+                    <div class="shape shape_smaller"></div>
+                    <h1 class="popular__title">VST</h1>
+                    <h1 class="popular__subtitle">932 DI</h1>
+
+                    <img src="assets/kts_photos/T932.jpg" alt="" class="popular__img">
+
+                    <div class="popular__data">
+                        <div class="popular__data-group">
+                            <i class="ri-dashboard-3-line"></i>3.7 Sec
+                        </div>
+                        <div class="popular__data-group">
+                            <i class="ri-funds-line"></i> 40 Km/h
+                            
+                        </div>
+                        <div class="popular__data-group">
+                            <i class="ri-charging-pile-line"></i> Disel
+                        
+                        </div>
+                    </div>
+
+                    <h3 class="popular__price">Not Declear</h3>
+
+                    <button class="button popular__button">
+                        <i class="ri-shopping-bag-2-line"></i>
+                    </button>
+
+
+                </article>
+                
+                <article class="popular__card swiper-slide"> 
+                    <div class="shape shape_smaller"></div>
+                    <h1 class="popular__title">VST</h1>
+                    <h1 class="popular__subtitle">929 DI</h1>
+
+                    <img src="assets/kts_photos/T929.png" alt="" class="popular__img">
+
+                    <div class="popular__data">
+                        <div class="popular__data-group">
+                            <i class="ri-dashboard-3-line"></i>3.7 Sec
+                        </div>
+                        <div class="popular__data-group">
+                            <i class="ri-funds-line"></i> 40 Km/h
+                            
+                        </div>
+                        <div class="popular__data-group">
+                            <i class="ri-charging-pile-line"></i> Disel
+                        
+                        </div>
+                    </div>
+
+                    <h3 class="popular__price">NOt Declear</h3>
+
+                    <button class="button popular__button">
+                        <i class="ri-shopping-bag-2-line"></i>
+                    </button>
+
+
+                </article>
+            </div>  
+            <!-- <div class="swiper-pagination"></div> -->
+        </div>          
+        </section>
+
+            <!--==================== FEATURES ====================-->
+            <section class="features section" >
+                <h2 class="section__title">
+                    More Features
+                </h2>
+                <div class="features__container container grid">
+                    <div class="features__group">
+                        <img src="assets/kts_photos/t297_1.png" alt="" class="features_img">
+
+                        <div class="features__card features__card-1">
+                            <h3 class="features__card-title">24HP</h3>
+                            <p class="features__card-desciption">Powerfull <br> Engine</p>
+                        </div>
+
+                        <div class="features__card features__card-2">
+                            <h3 class="features__card-title">10</h3>
+                            <p class="features__card-desciption">Km <br> Milege</p>
+                        </div>
+
+                        <div class="features__card features__card-3">
+                            <h3 class="features__card-title">18</h3>
+                            <p class="features__card-desciption">Liters <br> capacity</p>
+                        </div>
+                    </div>
+                </div> 
+                <img src="assets/img/map.svg" alt="" class="features__map">
+            </section>
+
+            <!--==================== FEATURED ====================-->
+            <section class="featured section" id="product">
+                <h2 class="section__title">
+                    Featured Powerfull <p class="FSHead">Tractors</p> 
+                </h2>
+
+                <div class="featured__container container">
+                    <ul class="featured__filters">
+                        <li>
+                            <button class="featured__item active-featured" data-filter="all">
+                                <span>All</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="featured__item" data-filter=".Tractor">
+                                <img src="assets/kts_photos/t297_1.png" alt="">
+                            </button>
+                        </li>
+                        <li>
+                            <button class="featured__item" data-filter=".Thresher">
+                                <img src="assets/kts_photos/theseraa2.png" alt="">
+                            </button>
+                        </li>
+                        <li>
+                            <button class="featured__item" data-filter=".Rotavator">
+                                <!-- <i class="fa-solid fa-tractor"></i> -->
+                                <img src="assets/kts_photos/rota2.png" alt="">
+                            </button>
+                        </li>
+                    </ul>
+                    <div class="featured__content grid ">
+                        <article class="featured__card mix Tractor ">
+                            <div class="shape shape_smaller"></div>
+
+                            <h1 class="featured__title">VST</h1>
+
+                            <h3 class="featured__subtitle">927</h3>
+
+                            <img src="assets/kts_photos/t297_1.png" alt="">
+
+                            <h3 class="featured__price">Not Declear</h3>
+
+                            <button class="button featured__button">
+                                <i class="ri-shopping-bag-2-line"></i>
+                            </button>
+
+                        </article>
+                        <article class="featured__card mix Tractor">
+                            <div class="shape shape_smaller"></div>
+
+                            <h1 class="featured__title">VST</h1>
+
+                            <h3 class="featured__subtitle">929 DI</h3>
+
+                            <img src="assets/kts_photos/T929.png" alt="">
+
+                            <h3 class="featured__price">Not declear</h3>
+
+                            <button class="button featured__button">
+                                <i class="ri-shopping-bag-2-line"></i>
+                            </button>
+
+                        </article>
+                        <article class="featured__card mix Tractor">
+                            <div class="shape shape_smaller"></div>
+
+                            <h1 class="featured__title">VST</h1>
+
+                            <h3 class="featured__subtitle">932 DI</h3>
+
+                            <img src="assets/kts_photos/T9322.png" alt="">
+
+                            <h3 class="featured__price">Not Declear</h3>
+
+                            <button class="button featured__button">
+                                <i class="ri-shopping-bag-2-line"></i>
+                            </button>
+
+                        </article>
+                        <article class="featured__card mix Tractor">
+                            <div class="shape shape_smaller"></div>
+
+                            <h1 class="featured__title">VST</h1>
+
+                            <h3 class="featured__subtitle">939 DI</h3>
+
+                            <img src="assets/kts_photos/T939.png" alt="">
+
+                            <h3 class="featured__price">Not Declear</h3>
+
+                            <button class="button featured__button">
+                                <i class="ri-shopping-bag-2-line"></i>
+                            </button>
+
+                        </article>
+                        <article class="featured__card mix Tractor">
+                            <div class="shape shape_smaller"></div>
+
+                            <h1 class="featured__title">VST</h1>
+
+                            <h3 class="featured__subtitle">918</h3>
+
+                            <img src="assets/kts_photos/t297_1.png" alt="">
+
+                            <h3 class="featured__price">Not Declear</h3>
+
+                            <button class="button featured__button">
+                                <i class="ri-shopping-bag-2-line"></i>
+                            </button>
+
+                        </article>
+                        <article class="featured__card mix Rotavator">
+                            <div class="shape shape_smaller"></div>
+
+                            <h1 class="featured__title">Krushitech</h1>
+
+                            <h3 class="featured__subtitle">6 </h3>
+
+                            <img src="assets/kts_photos/rota3.png" alt="">
+
+                            <h3 class="featured__price">Not Declear</h3>
+
+                            <button class="button featured__button">
+                                <i class="ri-shopping-bag-2-line"></i>
+                            </button>
+
+                        </article>
+                        <article class="featured__card mix Rotavator">
+                            <div class="shape shape_smaller"></div>
+
+                            <h1 class="featured__title">Krushitech</h1>
+
+                            <h3 class="featured__subtitle">8</h3>
+
+                            <img src="assets/kts_photos/rota4.png" alt="">
+
+                            <h3 class="featured__price">Not Declear</h3>
+
+                            <button class="button featured__button">
+                                <i class="ri-shopping-bag-2-line"></i>
+                            </button>
+
+                        </article>
+                        <article class="featured__card mix Rotavator">
+                            <div class="shape shape_smaller"></div>
+
+                            <h1 class="featured__title">Krushitech</h1>
+
+                            <h3 class="featured__subtitle">3.5</h3>
+
+                            <img src="assets/kts_photos/rota5.png" alt="">
+
+                            <h3 class="featured__price">Not Declear</h3>
+
+                            <button class="button featured__button">
+                                <i class="ri-shopping-bag-2-line"></i>
+                            </button>
+
+                        </article>
+                        <article class="featured__card mix Thresher">
+                            <div class="shape shape_smaller"></div>
+
+                            <h1 class="featured__title">Krushitech</h1>
+
+                            <h3 class="featured__subtitle">12</h3>
+
+                            <img src="assets/kts_photos/theseraa2.png" alt="">
+
+                            <h3 class="featured__price">Not Declear</h3>
+
+                            <button class="button featured__button">
+                                <i class="ri-shopping-bag-2-line"></i>
+                            </button>
+
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <!--==================== service ====================-->
+            <!-- <section class="services" id="services">
+                <h1 class="heading">our <span>Services</span></h1>
+
+                <div class="box__container container">
+                    <div class="box">
+                        <i class="fa-solid fa-car"></i>
+                        <h3>Tractor Selling</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+
+                    <div class="box">
+                        <i class="fa-solid fa-car"></i>
+                        <h3>Tractor Servicing</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+
+                    <div class="box">
+                        <i class="fa-solid fa-car"></i>
+                        <h3>Tractor Parts</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+
+                    <div class="box">
+                        <i class="fa-solid fa-car"></i>
+                        <h3>Garage</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+
+            </section> -->
+            <!--==================== OFFER ====================-->
+            <section class="offer section" id="services" id="contactUs">
+                <div class="offer__container container grid">
+                    <img src="assets/img/offer-bg.png" alt="" class="offer__bg">
+
+                    <div class="offer__data">
+                        <h2 class="section_title offer__title">
+                            Do You What To Receive <br> Special offers?
+                            तुम्हाला विशेष ऑफर हवी आहे का?
+
+                        </h2>
+                        <p class="offer_description">
+                            Be the first to receive all the information about our
+                            product and new cars by email by subscribing to our
+                            mailing List
+                        </p>
+                        <a href="ContactUsForm.html" class="button">
+                            Contact Us
+                        </a>
+                    </div>
+                    <img src="assets/kts_photos/home_mainphoto.png" alt="" class="offer__img">
+                </div>
+            </section>
+
+            <!--==================== LOGOS ====================-->
+            <section class="logos section">
+                <div class="logos__container container grid">
+                    <div class="logos__content">
+                        <img src="assets/kts_photos/VST_Logo__ver1.png" alt="" class="logos__img">
+                    </div>
+                    <div class="logos__content">
+                        <img src="assets/kts_photos/Screenshot 2023-09-16 163444.png" alt="" class="logos__img">
+                    </div>
+                    <div class="logos__content">
+                        <img src="assets/kts_photos/krushitect_logo.png" alt="" class="logos__img">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="shape shape__big"></div>
+            <div class="shape shape__small"></div>
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">
+                        <i class="fa-solid fa-car"></i> Khandesh Tractor
+                    </a>
+                    <p class="footer__description">
+                        We offer the best Powerfull Mini Tractor and<br>
+                       Rotavator and Services. 
+                    </p>
+                </div>
+                <div class="footer__content">
+                    <h3 class="footer__title">
+                        Company
+                    </h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="" class="footer__link">About</a>
+                        </li>
+                        <li>
+                            <a href="" class="footer__link">Tractor</a>
+                        </li>
+                        <li>
+                            <a href="" class="footer__link">Services</a>
+                        </li>
+                        <li>
+                            <a href="" class="footer__link">Shop</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">
+                        Information
+                    </h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="" class="footer__link">Request a Qoute</a>
+                        </li>
+                        <li>
+                            <a href="" class="footer__link">Find a dealer</a>
+                        </li>
+                        <li>
+                            <a href="" class="footer__link">contact us</a>
+                        </li>
+                        <li>
+                            <a href="" class="footer__link">Service</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">
+                        Follow Us
+                    </h3>
+                    <ul class="footer_social">
+                        <a href="#" target="_blank" class="footer__social-link">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" target="_blank" class="footer__social-link">
+                            <i class="fa-brands fa-square-facebook"></i>
+                        </a>
+                        <a href="#" target="_blank" class="footer__social-link">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <span class="Footer__copy">
+                &#169; KaushalWagh. All Rights Reserved
+            </span>
+        </footer>
+
+
+        <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MIXITUP JS ===============-->
+        <script src="assets/js/mixitup.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
