@@ -7,3 +7,5 @@
 - Developed first with the Mobile First methodology, then for desktop.
 - Compatible with all mobile devices and with a beautiful and pleasant user interface.
 
+deployed Link : 
+https://kaushalwagh15.github.io/tractor_showroom_frontend_project/
